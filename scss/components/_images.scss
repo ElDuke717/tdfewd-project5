@@ -1,0 +1,12 @@
+/*=====================================*/
+/*   Image Styling                     */
+/*=====================================*/ 
+
+img{
+    justify-content: center;
+    &:hover{
+    opacity: 0.6;
+    background-color: $hover-color;
+    transition: opacity 0.2s;
+    }
+}

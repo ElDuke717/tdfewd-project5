@@ -3,70 +3,70 @@
 /*=====================================*/ 
 
 .gallery {
-    max-width: 1045px;
     display: grid;
     grid-template-columns: repeat(auto-fill, 200px);
     grid-template-rows: repeat(3, 1fr);
     grid-gap: 15px;
-    padding: 20px;
+    justify-content: center;
+    margin: auto;
 }
 
-.one {
-    align-self: center;
-    justify-self: center;
-}
+// .one {
+//     align-self: center;
+//     justify-self: center;
+// }
 
-.two {
-    align-self: center;
-    justify-self: center;
-}
+// .two {
+//     align-self: center;
+//     justify-self: center;
+// }
 
-.three {
-    align-self: center;
-    justify-self: center;
-}
+// .three {
+//     align-self: center;
+//     justify-self: center;
+// }
 
-.four {
-    align-self: center;
-    justify-self: center;
-}
+// .four {
+//     align-self: center;
+//     justify-self: center;
+// }
 
-.five {
-    align-self: center;
-    justify-self: center;
-}
+// .five {
+//     align-self: center;
+//     justify-self: center;
+// }
 
-.six {
-    align-self: center;
-    justify-self: center;
-}
+// .six {
+//     align-self: center;
+//     justify-self: center;
+// }
 
-.seven {
-    align-self: center;
-    justify-self: center;
-}
+// .seven {
+//     align-self: center;
+//     justify-self: center;
+// }
 
-.eight {
-    align-self: center;
-    justify-self: center;
-}
+// .eight {
+//     align-self: center;
+//     justify-self: center;
+// }
 
-.nine {
-    align-self: center;
-    justify-self: center;
-}
+// .nine {
+//     align-self: center;
+//     justify-self: center;
+// }
 
-.ten {
-    align-self: center;
-    justify-self: center;
-}
+// .ten {
+//     align-self: center;
+//     justify-self: center;
+// }
 
-.eleven {
-    align-self: center;
-    justify-self: center;
-}
+// .eleven {
+//     align-self: center;
+//     justify-self: center;
+// }
 
-.twelve {
-    align-self: center;
-    justify-self: center;
-}
+// .twelve {
+//     align-self: center;
+//     justify-self: center;
+// }

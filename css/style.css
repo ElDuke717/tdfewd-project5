@@ -372,75 +372,28 @@ body {
 /*   Components Imports */
 /*=====================================*/
 /*=====================================*/
+/*   Image Styling                     */
+/*=====================================*/
+img {
+  justify-content: center;
+}
+
+img:hover {
+  opacity: 0.6;
+  background-color: #e6f2fc;
+  transition: opacity 0.2s;
+}
+
+/*=====================================*/
 /*   Grid Layout                       */
 /*=====================================*/
 .gallery {
-  max-width: 1045px;
   display: grid;
   grid-template-columns: repeat(auto-fill, 200px);
   grid-template-rows: repeat(3, 1fr);
   grid-gap: 15px;
-  padding: 20px;
-}
-
-.one {
-  align-self: center;
-  justify-self: center;
-}
-
-.two {
-  align-self: center;
-  justify-self: center;
-}
-
-.three {
-  align-self: center;
-  justify-self: center;
-}
-
-.four {
-  align-self: center;
-  justify-self: center;
-}
-
-.five {
-  align-self: center;
-  justify-self: center;
-}
-
-.six {
-  align-self: center;
-  justify-self: center;
-}
-
-.seven {
-  align-self: center;
-  justify-self: center;
-}
-
-.eight {
-  align-self: center;
-  justify-self: center;
-}
-
-.nine {
-  align-self: center;
-  justify-self: center;
-}
-
-.ten {
-  align-self: center;
-  justify-self: center;
-}
-
-.eleven {
-  align-self: center;
-  justify-self: center;
-}
-
-.twelve {
-  align-self: center;
-  justify-self: center;
+  justify-content: center;
+  margin: auto;
 }
 
 /*=====================================*/
@@ -461,7 +414,7 @@ body {
   align-self: center;
   border-radius: 2px;
   border: 1px solid #e4e3e3;
-  padding: 10px 200px 10px 5px;
+  padding: 10px 100px 10px 5px;
 }
 
 .search-container input:hover {
