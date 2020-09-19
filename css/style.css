@@ -379,12 +379,12 @@ h1 {
 /*=====================================*/
 /*   Image Styling                     */
 /*=====================================*/
-img {
+.thumb {
   justify-content: center;
   border-radius: 1px;
 }
 
-img:hover {
+.thumb:hover {
   opacity: 0.6;
   background-color: #e6f2fc;
   transition: opacity 0.2s;
