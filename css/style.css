@@ -368,6 +368,11 @@ body {
 /* ============================================= */
 /*              Typography                       */
 /* ============================================= */
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
 /*=====================================*/
 /*   Components Imports */
 /*=====================================*/
@@ -376,12 +381,16 @@ body {
 /*=====================================*/
 img {
   justify-content: center;
+  border-radius: 1px;
 }
 
 img:hover {
   opacity: 0.6;
   background-color: #e6f2fc;
   transition: opacity 0.2s;
+  transform: scale(1.05);
+  transform: rotate(1.5deg);
+  box-shadow: 1px 5px grey;
 }
 
 /*=====================================*/
@@ -419,13 +428,4 @@ img:hover {
 
 .search-container input:hover {
   background: #e6e3e3;
-}
-
-/* ============================================= */
-/*              Media Queries                    */
-/* ============================================= */
-@media (min-width: 768px) {
-  input {
-    padding: 10px 200px 10px 5px;
-  }
 }

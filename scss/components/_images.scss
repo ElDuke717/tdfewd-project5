@@ -4,9 +4,13 @@
 
 img{
     justify-content: center;
+    border-radius: 1px;
     &:hover{
     opacity: 0.6;
     background-color: $hover-color;
-    transition: opacity 0.2s;
+    transition: opacity 0.2s ;
+    transform: scale(1.05);
+    transform: rotate(1.5deg);
+    box-shadow: 1px 5px grey;
     }
 }
