@@ -24,5 +24,5 @@ document.getElementById("search").addEventListener('keyup', myFunction);
 
 function myFunction() {
   var x = document.getElementById("search");
-  x.value = x.value.toUpperCase(x);
+  x.value = x.value.toUpperCase();
 }
